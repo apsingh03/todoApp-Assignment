@@ -9,9 +9,9 @@
 - user can sort todos
 - responsive Design
 
-#### Deployed Link -  [Click Here to Check FrontEnd](https://hilarious-rugelach-b10b48.netlify.app/)
+#### Deployed Link -  [Click Here to Check FrontEnd](https://ajaytodowebapp.netlify.app/)
 
-##### HTML , CSS , Bootstrap , Javascript , React JS , React Router, Redux Toolkit , Redux Thunk
+##### HTML , CSS , Bootstrap , Javascript , React JS , React Router, Redux Toolkit , Redux Thunk , axios
 
 
 ###  Rest APIS Backend
@@ -19,7 +19,7 @@
 ### Features
 - CRUD 
 
-#### Deployed Link -  [Click Here to Check BackEnd under Restaurant section](https://datavalidation.pythonanywhere.com/)
+#### Deployed Link -  [Click Here to Check BackEnd under todo section](https://datavalidation.pythonanywhere.com/)
 
  #### Django Rest Framework , Mysql , Swagger   
 
