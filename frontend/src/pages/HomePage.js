@@ -29,20 +29,24 @@ const HomePage = () => {
 
     // console.log("cliclked");
 
-    console.log(taskName);
-    console.log(priority);
+    // console.log(taskName);
+    // console.log(priority);
 
-    if (taskName === "") {
-      alert("Please type Task Name");
-    } else if (priority === "") {
-      alert("Please select Priority");
-    } else {
-      dispatch(
-        addToDoAsync({
-          name: taskName,
-          priority: priority,
-        })
-      );
+    try {
+      if (taskName === "") {
+        alert("Please type Task Name");
+      } else if (priority === "") {
+        alert("Please select Priority");
+      } else {
+        dispatch(
+          addToDoAsync({
+            name: taskName,
+            priority: priority,
+          })
+        );
+      }
+    } catch (error) {
+      console.log(error);
     }
 
     // console.log ( taskName );
